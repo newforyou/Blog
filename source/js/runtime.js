@@ -1,5 +1,5 @@
 function show_runtime() {
-  Begin = new Date("05/11/2023 18:00:00"); //这里改成自己的建站时间
+  Begin = new Date("06/26/2024 15:00:00"); //这里改成自己的建站时间
   Now = new Date();
   T = Now.getTime() - Begin.getTime();
   if (T < 0) return;
