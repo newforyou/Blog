@@ -43,7 +43,8 @@ class Footer extends Component {
                                 dangerouslySetInnerHTML={{ __html: visitorCounterTitle }}></span> : null}
                         </p>
                         {copyright ? <p class="is-size-7" dangerouslySetInnerHTML={{ __html: copyright }}></p> : null}
-              <script src="/js/runtime.js"></script>      
+              <p class="is-size-7"><span id="runtime_footer"></span></p>
+	            <script src="/js/runtime.js"></script>     
               </div>
                     <div class="level-end">
                         {Object.keys(links).length ? <div class="field has-addons">
