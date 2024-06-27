@@ -7,14 +7,16 @@ nav:
   display_title: true
   fixed: false # fixed navigation bar
 
-# Menu 目錄
+# Menu 导航菜单
 menu:
   首页: / || fas fa-home
   归档: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
+  友链: /links/ || fa fa-link
+  关于: /about/ || fas fa-heart
 
-# Code Blocks (代碼相關)
+# Code Blocks (代码块显示设置)
 # --------------------------------------
 
 highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
@@ -24,7 +26,7 @@ highlight_shrink: false # true: shrink the code blocks / false: expand the code 
 highlight_height_limit: false # unit: px
 code_word_wrap: true
 
-# Social Settings (社交圖標設置)
+# Social Settings (社交图标设置)
 # formal:
 #   icon: link || the description || color
 social:
@@ -34,10 +36,10 @@ social:
 # Image (圖片設置)
 # --------------------------------------
 
-# Favicon（網站圖標）
+# Favicon（网站图标）
 favicon: /img/favicon.svg
 
-# Avatar (頭像)
+# Avatar (头像)
 avatar:
   img: https://avatars.githubusercontent.com/u/77427255?v=4
   effect: false
@@ -229,7 +231,7 @@ aside:
       link: https://github.com/newforyou
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到我的个人博客。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -360,7 +362,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # Preload the search data when the page loads.
   preload: false
   # Show top n results per article, show all results by setting to -1
@@ -681,7 +683,7 @@ canvas_fluttering_ribbon:
 # canvas_nest
 # https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: false
+  enable: true
   color: "0,0,255" #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
   zIndex: -1 # z-index property of the background, default: -1.
@@ -696,7 +698,7 @@ fireworks:
 
 # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
 click_heart:
-  enable: false
+  enable: true
   mobile: false
 
 # Mouse click effects: words (鼠標點擊效果: 文字)
@@ -746,6 +748,7 @@ subtitle:
   enable: true
   # Typewriter Effect (打字效果)
   effect: true
+  loop: true
   # Customize typed.js (配置typed.js)
   # https://github.com/mattboldt/typed.js/#customization
   typed_option:
@@ -869,7 +872,7 @@ pangu:
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/vanilla-lazyload
 lazyload:
-  enable: false
+  enable: true
   field: site # site/post
   placeholder:
   blur: false
