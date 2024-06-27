@@ -145,7 +145,7 @@ copy:
 toc:
   post: true
   page: false
-  number: true
+  number: false
   expand: false
   style_simple: false # for post
   scroll_percent: true
@@ -276,8 +276,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date: # 26/6/2024 00:00:00
+  enable: true
+  publish_date: 6/27/2024 00:00:00
 
 # # Aside widget - Newest Comments
 newest_comments:
@@ -944,7 +944,7 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    # busuanzi:
+    busuanzi: https://cdn.bootcdn.net/ajax/libs/busuanzi/2.3.0/bsz.pure.mini.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
