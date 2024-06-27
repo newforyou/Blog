@@ -16,7 +16,8 @@ module.exports = class extends Component {
 
         return <html lang={language ? language.substr(0, 2) : ''}>
             <Head site={site} config={config} helper={helper} page={page} />
-            <body class={`is-${columnCount}-column`}>
+          <body class={`is-${columnCount}-column`}>
+                <script type="text/javascript" color="30,144,255" opacity='0.5' zIndex="-1" count="150" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
                 <Navbar config={config} helper={helper} page={page} />
                 <section class="section">
                     <div class="container">
