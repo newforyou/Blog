@@ -30,7 +30,6 @@ jobs:
 
       - name: Clean and Generate Static Files
         run: |
-          hexo clean
           hexo generate
 
       - name: Configure Git
