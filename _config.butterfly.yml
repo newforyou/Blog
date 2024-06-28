@@ -147,7 +147,7 @@ toc:
   page: false
   number: false
   expand: false
-  style_simple: false # for post
+  style_simple: true # for post
   scroll_percent: true
 
 post_copyright:
@@ -205,8 +205,8 @@ footer:
   owner:
     enable: true
     since: 2024
-  custom_text: You only live once
-  copyright: true # Copyright of theme and framework
+  custom_text: <p><a style="margin-inline:5px"target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为 Hexo" alt="HEXO"></a><a style="margin-inline:5px"target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用 Butterfly" alt="Butterfly"></a><a style="margin-inline:5px"target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用 Jsdelivr 为静态资源提供CDN加速" alt="Jsdelivr"></a><a style="margin-inline:5px"target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由 GitHub 托管" alt="GitHub"></a><a style="margin-inline:5px"target="_blank"href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" alt="img" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+  copyright: false # Copyright of theme and framework
 
 # aside (側邊欄)
 # --------------------------------------
@@ -638,10 +638,10 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: url(https://img.oulu.me/008%20Rainy%20Ashville.png)
+background: # url(https://img.oulu.me/008%20Rainy%20Ashville.png)
 
 # Footer Background
-footer_bg: true
+footer_bg: false
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -718,10 +718,10 @@ display_mode: light
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
+  enable: true
   field: post # site/post
-  title-prefix-icon: # '\f0c1'
-  title-prefix-icon-color: # '#F47466'
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: "#F47466"
 
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
@@ -910,6 +910,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - - <link rel="stylesheet" href="/blog/css/background.css" media="defer" onload="this.media='all'">
   bottom:
     # - <script src="xxxx"></script>
 
