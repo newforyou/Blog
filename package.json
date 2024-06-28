@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "add": "^2.0.6",
-    "bulma-stylus": "^0.8.0",
+    "bulma-stylus": "^0.9.1",
     "gulp": "^5.0.0",
     "gulp-html-minifier-terser": "^7.1.0",
     "hexo": "^7.0.0",
