@@ -642,10 +642,10 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: /img/background_img.png
+background: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)"
 
 # Footer Background
-footer_bg: false
+footer_bg: "linear-gradient(to top, #fff1eb 0%, #ace0f9 100%)"
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
