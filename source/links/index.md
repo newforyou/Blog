@@ -4,5 +4,5 @@ date: 2024-06-27 22:21:17
 type: "link"
 comments: false
 aside: false
-top_img: /img/links_img.jpg
+top_img:
 ---
