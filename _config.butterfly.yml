@@ -10,9 +10,13 @@ nav:
 # Menu 导航菜单
 menu:
   首页: /|| fas fa-home
-  归档: /archives/|| fas fa-archive
-  标签: /tags/|| fas fa-tags
-  分类: /categories/|| fas fa-folder-open
+  文章|| fa-solid fa-book:
+    归档: /archives/|| fas fa-archive
+    标签: /tags/|| fas fa-tags
+    分类: /categories/|| fas fa-folder-open
+  分享|| fa-solid fa-share-nodes:
+    软件: /apps/ || fa-brands fa-uncharted
+    工具网站: /toolwebs/ || fa-solid fa-toolbox
   友链: /links/|| fa fa-link
   关于: /about/|| fas fa-heart
 
@@ -196,8 +200,8 @@ noticeOutdate:
   style: flat # style: simple/flat
   limit_day: 365 # When will it be shown
   position: top # position: top/bottom
-  message_prev: 请注意，距文章更新时间已经有
-  message_next: 天，文章内容可能已过时。
+  message_prev: 距离上次更新已经过了
+  message_next: 天，文中部分内容可能已经过时，请注意甄别。
 
 # Footer Settings
 # --------------------------------------
@@ -216,7 +220,7 @@ aside:
   hide: false
   button: true
   mobile: true # display on mobile
-  position: right # left or right
+  position: left # left or right
   display:
     archive: true
     tag: true
@@ -231,7 +235,7 @@ aside:
       link: https://github.com/newforyou
   card_announcement:
     enable: true
-    content: 欢迎来到我的个人博客。
+    content: 欢迎来到Yolo的个人博客，旨在记录和保存学习生活所得，如有侵权，请联系我及时删除😊。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -292,7 +296,7 @@ newest_comments:
 
 # # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
@@ -719,7 +723,7 @@ display_mode: light
 # Beautify (美化頁面顯示)
 beautify:
   enable: true
-  field: post # site/post
+  field: site # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: "#F47466"
 
