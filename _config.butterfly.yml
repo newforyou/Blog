@@ -139,7 +139,7 @@ photofigcaption: false
 copy:
   enable: true
   copyright:
-    enable: false
+    enable: true
     limit_count: 50
 
 # Post
@@ -227,7 +227,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: 很想进步的废物😭
     button:
       enable: true
       icon: fab fa-github
@@ -766,6 +766,8 @@ subtitle:
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
     - You only live once
+    - 不怨天，不尤人。
+    - 吾生也有涯，而知也无涯。以有涯随无涯，殆已！
 
 # Loading Animation (加載動畫)
 preloader:
