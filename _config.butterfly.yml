@@ -15,7 +15,8 @@ menu:
     标签: /tags/|| fas fa-tags
     分类: /categories/|| fas fa-folder-open
   分享|| fa-solid fa-share-nodes:
-    软件: /apps/ || fa-brands fa-uncharted
+    学习资源: /learn/ || fa-solid fa-lines-leaning
+    软件分享: /apps/ || fa-brands fa-uncharted
     工具网站: /toolwebs/ || fa-solid fa-toolbox
   友链: /links/|| fa fa-link
   关于: /about/|| fas fa-heart
@@ -148,7 +149,7 @@ copy:
 # toc (目錄)
 toc:
   post: true
-  page: false
+  page: true
   number: false
   expand: true
   style_simple: true # for post
