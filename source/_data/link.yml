@@ -6,42 +6,6 @@
       avatar: https://chuixue-lan.github.io/Blog/img/avatar.jpg
       descr: 不会都问他
 
-- class_name: 学习网站
-  class_desc: 卷！
-  link_list:
-    - name: JavaGuide
-      link: https://javaguide.cn/
-      avatar: https://javaguide.cn/logo.svg
-      descr: Java
-    - name: Deep Learning
-      link: https://zh-v2.d2l.ai/
-      avatar: https://zh-v2.d2l.ai/_static/favicon.png
-      descr: 深度学习课程
-    - name: PyTorch Doc
-      link: https://pytorch.org/docs/stable/torch.html
-      avatar: https://pytorch.org/assets/images/logo-icon.svg
-      descr: PyTorch 官方文档
-    - name: Quick Reference
-      link: https://wangchujiang.com/reference/
-      avatar: https://cheatsheets.zip/images/favicon.png?v=1
-      descr: 速查网站
-    - name: IT Tool
-      link: https://it-tools.tech/
-      avatar: https://it-tools.tech/favicon.ico
-      descr: 工具箱
-
-- class_name: 社区
-  class_desc: 爱看多看
-  link_list:
-    - name: PKMER
-      link: https://pkmer.cn/#home
-      avatar: https://pkmer.cn/img/favicon.ico
-      descr: Obsidian 中文社区
-    - name: Zotero
-      link: https://zotero-chinese.com/
-      avatar: https://zotero-chinese.com/logo.png
-      descr: Zotero 中文社区
-
 - class_name: 配置参考
   class_desc: 难！
   link_list:
