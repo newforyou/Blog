@@ -38,7 +38,7 @@
     "inferno": "^8.2.3",
     "inferno-create-element": "^8.2.3",
     "or": "^0.2.0",
-    "semver": "^7.6.2",
+    "semver": "^7.6.3",
     "yarn": "^1.22.22"
   },
   "devDependencies": {
